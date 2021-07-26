@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
   var commentList = [];
   var commentorImage = [];
   var commentorName = [];
-  //function to get company data from meroshare api
+  
   getCommentData() async {
     var privateAPI = getApi(); //enter your own api key here.
     var link =
